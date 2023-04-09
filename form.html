@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+        integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainContainerForm">
+        <div class="containerForm">
+            <div class="hearderForm">
+                <h2>Register</h2>
+                <p>Already have an account? <a href="/index.html">Login here</a> Instead</p>
+            </div>
+
+            <form action="https://sheetdb.io/api/v1/5fcluhpvjv0hw" class="formContainer" id="registrationForm"
+                method="post">
+                <div class="formControl">
+                    <label>First Name</label>
+                    <input name="data[firstname]" type="text" id="username" placeholder="Enter Your First Name"
+                        autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Last Name</label>
+                    <input name="data[lastname]" type="text" id="lastName" placeholder="Enter Your Last Name"
+                        autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Phone number</label>
+                    <input name="data[phonenumber]" type="tel" id="phoneNumber" placeholder="08000111111"
+                        autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Email</label>
+                    <input name="data[email]" type="text" id="email" placeholder="Enter Your Email" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Department</label>
+                    <input name="data[department]" type="text" id="department" placeholder="Enter Your Department"
+                        autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Next of Kin</label>
+                    <input name="data[nextofkin]" type="text" id="nextOfKin" placeholder="Enter Your Next of Kin Name"
+                        autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Password" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <div class="formControl">
+                    <label>Confirm Password</label>
+                    <input type="password" id="confirmPassword" placeholder="Confirm Password" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error Message</small>
+                </div>
+
+                <!-- <a href="checkout.html"> -->
+                <button class="btn">Submit</button>
+                <!-- </a> -->
+
+            </form>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footerContainer">
+            <div>
+                <h2>About Us</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolorum ipsa beatae nihil vel unde omnis provident
+                    doloribus deserunt temporibus quod! Delectus facilis
+                    laborum rerum.</p>
+                <ul class="socialIcons">
+                    <li class="flex">
+                        <ion-icon name="logo-twitter"></ion-icon>
+                    </li>
+                    <li class="flex">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </li>
+                    <li class="flex">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <h2>Useful Links</h2>
+                <a href="#">Blog</a>
+                <a href="#">Rooms</a>
+                <a href="#">Subcription</a>
+                <a href="#">Gift Card</a>
+            </div>
+
+            <div>
+                <h2>Privacy</h2>
+                <a href="#">Career</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Services</a>
+            </div>
+
+            <div>
+                <h2>Do you have a question ?</h2>
+                <div class="contactItem">
+                    <span>
+                        <ion-icon name="map-outline"></ion-icon>
+                    </span>
+                    <span>
+                        2, Sheikh Zakariyah Adebayo Yusuf Street, PEGAMUT, 102112, Ota, Ogun State, Nigeria
+                    </span>
+                </div>
+
+                <div class="contactItem">
+                    <span>
+                        <ion-icon name="call-outline"></ion-icon>
+                    </span>
+                    <span>
+                        +234 815 650 9701
+                    </span>
+                </div>
+
+                <div class="contactItem">
+                    <span>
+                        <ion-icon name="mail-open-outline"></ion-icon>
+                    </span>
+                    <span>
+                        contact@dltafrica.io
+                    </span>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- End of footer -->
+    <script src="main.js"></script>
+</body>
+
+</html>
